@@ -1,0 +1,88 @@
+
+.open-sans-normal{
+    font-family: "Open Sans",sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px 0 180px;
+
+}
+#r{
+    color: rgb(253, 110, 10);
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 45px;
+        
+}
+nav ul a{
+    text-decoration: none;
+   font-size: 12px;
+}
+.dark-2{
+    color: rgb(71, 71, 71);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+.btn{
+     background: rgb(253, 110, 10);
+     color: rgb(255, 255, 255);
+     text-align: center;
+     font-weight: bold;
+     padding: 13px 30px;
+     font-size: 14px;
+     border-radius: 5px;
+     border: none;
+}
+
+.bnr-greet{
+    font-size: 45px;
+    font-weight: 600;
+   
+}
+.bnr-name{
+     font-size: 70px;
+    font-weight: bold;
+}
+.bnr-description{
+    color: rgb(117, 117, 117);
+
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+}
+.bnr-img{
+    width: 400px;
+    
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px 0 180px;
+    
+}
+.bnr-content{
+    max-width: 580px;
+}
+.header{
+    
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+    
+}
