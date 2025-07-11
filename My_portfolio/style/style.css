@@ -52,10 +52,13 @@ nav ul{
     font-weight: bold ;
     color: rgb(24, 24, 24);
     text-align: center;
+  
 }
 .sec-description{
   font-size: 18px;
-  color: rgb(71, 71, 71);
+   color: rgb(117, 117, 117);
+ font-weight: 400;
+ text-align: center;
 
 }
 .secondary-bg{
@@ -105,16 +108,20 @@ text-align: left;
     padding: 100px 120px;
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 80px;
 }
 .about-content{
     box-sizing: border-box;
 border: 1px solid rgb(0, 0, 0);
 background: rgb(255, 255, 255);
+width: 800px;
+margin: auto;
 
 }
 main{
     max-width: 1100px;
      margin: 0 auto;
+    
 }
 .about-items{
     display: flex;
@@ -124,9 +131,74 @@ main{
     color: rgb(117, 117, 117);
  
 }
-.item-title{
-
-}
 .item-des{
     font-weight: 600;
+}
+.center{
+    margin: 0 150px;
+   
+
+}
+.skills-contain{
+    display: flex;
+    gap: 28px;
+    margin-top: 30px;
+}
+.skill_des{
+    color: rgb(117, 117, 117);
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+background: rgb(255, 255, 255);
+}
+.colim-title{
+    color: rgb(71, 71, 71);
+font-size: 20px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+}
+.resume-container{
+    margin-top: 49px;
+    display: flex;
+  gap: 40px;
+}
+.exp-des{
+    color: rgb(117, 117, 117);
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0%;
+text-align: left;
+}
+.exp-subtitle{
+    color: rgb(117, 117, 117);
+font-size: 14px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 0;
+}
+.exp-title{
+    color: rgb(71, 71, 71);
+font-size: 18px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 0;
+}
+.resume{
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
